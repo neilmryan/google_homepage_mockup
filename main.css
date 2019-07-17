@@ -1,0 +1,63 @@
+.h_left {
+    position: absolute;
+    display: block;
+}
+
+.h_right {
+    position: relative;
+    text-align: right;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+}
+
+#sign_in {
+    font-weight: bold;
+    outline: none;
+    background-color:#4285f4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#search_bar {
+    width: 400px;
+    height: 30px;
+    border-radius: 25px;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 20px; 
+}
+
+#apps {
+    width: 25px;
+}
+
+.footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+
