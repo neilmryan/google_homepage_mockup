@@ -23,6 +23,7 @@ input {
     outline: none;
     background-color:#4285f4;
     border: none;
+    border-radius: 5%;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -34,9 +35,15 @@ input {
 }
 
 #search_bar {
-    width: 400px;
-    height: 30px;
+    width: 500px;
+    line-height: 34px;
+    border: 1px solid black;
     border-radius: 25px;
+    background-image: url("data:image/png;base64,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");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 95%;
+
 }
 
 #logo {
@@ -59,5 +66,18 @@ input {
     background-color: #f2f2f2;
     line-height: 40px;
     border-top: 1px solid #e4e4e4;
+}
+
+.center {
+    text-align: center;
+}
+
+.center input {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    height: 36px;
+    line-height: 27px;
+    display: inline-block;
 }
 
